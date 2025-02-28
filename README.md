@@ -1,5 +1,15 @@
 ### Building a Transformer Model from Scratch in C
 
+![diagram-export-6-9-2024-11_07_47-pm](https://github.com/user-attachments/assets/b443ff78-618f-4ea8-8832-4d703f97bbd9)
+
+
+![diagram-export-6-9-2024-11_08_50-pm](https://github.com/user-attachments/assets/67e2e762-c7b1-4881-9132-0a1dc9cc2d62)
+
+![diagram-export-6-9-2024-11_20_10-pm](https://github.com/user-attachments/assets/cd8bbdcc-2f11-4ff2-834a-b4c31a946e9d)
+
+
+![diagram-export-6-9-2024-11_24_50-pm](https://github.com/user-attachments/assets/3c17c0b1-98c8-43c8-888e-72d3d58694cb)
+
 In this project, I implemented a complete Transformer model from scratch using the C programming language. The model mimics the architecture described in the original "Attention is All You Need" paper, featuring components such as self-attention, positional encoding, feed-forward networks, and multi-layer perceptrons. Below is a breakdown of the project's file structure, detailing each module and its role in the overall architecture.
 
 ### File Structure Overview
@@ -106,15 +116,3 @@ In this project, I implemented a complete Transformer model from scratch using t
 ### Conclusion
 
 This project showcases a complete implementation of the Transformer model from scratch in C, highlighting my understanding of both deep learning concepts and low-level programming. Each module is meticulously crafted to replicate the Transformer architecture, ensuring flexibility and efficiency. By combining different components such as self-attention, positional encoding, feed-forward networks, and optimization algorithms, this implementation demonstrates the power and versatility of Transformers in natural language processing tasks.
-
-
-![diagram-export-6-9-2024-11_07_47-pm](https://github.com/user-attachments/assets/b443ff78-618f-4ea8-8832-4d703f97bbd9)
-
-
-![diagram-export-6-9-2024-11_08_50-pm](https://github.com/user-attachments/assets/67e2e762-c7b1-4881-9132-0a1dc9cc2d62)
-
-
-![diagram-export-6-9-2024-11_20_10-pm](https://github.com/user-attachments/assets/cd8bbdcc-2f11-4ff2-834a-b4c31a946e9d)
-
-
-![diagram-export-6-9-2024-11_24_50-pm](https://github.com/user-attachments/assets/3c17c0b1-98c8-43c8-888e-72d3d58694cb)

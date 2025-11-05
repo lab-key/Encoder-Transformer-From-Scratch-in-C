@@ -14,9 +14,6 @@ pub fn build(b: *std.Build) void {
         }),
     });
 
-    // Removed zglfw_dep and related linking
-    // Removed ccd_config_h and related include path
-
     lib.root_module.addCSourceFiles(.{
         .files = &.{ 
             "Final Version/main.c",
@@ -46,7 +43,7 @@ pub fn build(b: *std.Build) void {
             "Final Version/main.c", // Placeholder, replace with relevant C files if any
         },
         .flags = &.{ 
-            "-std=c11", // Changed from c++17 to c11
+            "-std=c11", 
             "-Wall",
             "-Wextra",
             "-pedantic",
@@ -55,7 +52,7 @@ pub fn build(b: *std.Build) void {
         },
     });
 
-    lib.addIncludePath(b.path("Final Version/")); // Consolidated include paths
+    lib.addIncludePath(b.path("Final Version/")); 
 
     lib.linkLibC();
     lib.linkSystemLibrary("omp");
@@ -79,7 +76,7 @@ pub fn build(b: *std.Build) void {
     const example_exe = b.addExecutable(.{
         .name = "transformer_example",
         .root_module = b.createModule(.{
-            .root_source_file = b.path("zig/example.zig"), // Placeholder for a Zig example
+            .root_source_file = b.path("zig/example.zig"), 
             .target = target,
             .optimize = optimize,
             .imports = &.{ 

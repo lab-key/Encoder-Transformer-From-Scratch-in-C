@@ -11,19 +11,7 @@
 
 /* SELF CREATED HEADER FILES */
 
-#include "Data_Loading_Cleaning.h"
-
-#include "Tokenizer.h"
-
-#include "Data_Preprocessing.h"
-
-#include "transformer_block.h"
-
-#include "feed_forward_layer.h"
-
-#include "activation_functions.h"
-
-#include "backpropagation.h"
+#include "transformer.h"
 
 int main() {
 

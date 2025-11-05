@@ -1,0 +1,10 @@
+.{
+    .name = .lib_zET,
+    .fingerprint = 0x36735f8fba6fee1a,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.15.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
